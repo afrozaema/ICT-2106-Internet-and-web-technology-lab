@@ -1,0 +1,12 @@
+body{
+   background-color: aqua;
+   background-image: url(/lab\ Class-2/CSS/scenery.jpg);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+}
+
+img{
+    display: block;
+    margin: auto;
+    float: right;
+}

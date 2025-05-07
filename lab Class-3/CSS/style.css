@@ -1,0 +1,41 @@
+table{
+    background-color:cadetblue ;
+    border: 1px solid black;
+    width: 50%;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+tr,td,th{
+    border: 1px solid silver;
+    border-radius: 20%;
+    padding: 20px;
+}
+tr:nth-child(even)
+{
+    background-color: blanchedalmond;
+}
+th:nth-child(even),td:nth-child(even) {
+    background-color: blanchedalmond;
+  }
+  .test{
+    background-color: bisque;
+    border-radius:30%;
+    color: black;
+    width: 300px;
+    height: 300px;
+    float: left;
+    padding: 40px;
+    border: 2px solid silver;
+    margin: 20px;
+  }
+  #myspan{
+    color:aliceblue;
+
+  }
+  .center{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }

@@ -1,0 +1,78 @@
+/* Element Selector */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #8ef1b6;
+  }
+  
+  header {
+    background-color: #4b9cd3;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* class Selector */
+  .navbar {
+    background-color: #e9de15;
+    color: #f2f7fa;
+   
+  }
+  
+  .navbar a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  /* Class Selector */
+  .main-content {
+    display: flex;
+    padding: 20px;
+  }
+  
+  .article {
+    flex: 3;
+    margin-right: 20px;
+  }
+  
+  .article h2 {
+    color: #4b9cd3;
+  }
+  
+  .sidebar {
+    flex: 1;
+    background-color: #69f372;
+    padding: 15px;
+  }
+  
+  /* Descendant Selector */
+  .sidebar ul li {
+    list-style-type: square;
+    margin-bottom: 10px;
+  }
+  
+  /* Attribute Selector */
+  a[href^="http"] {
+    font-style: italic;
+  }
+  
+  /* Pseudo-class Selector */
+  #navbar a:hover {
+    background-color: #555;
+  }
+  
+  footer {
+    background-color: #4b9cd3;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  /* Universal Selector */
+  * {
+    box-sizing: border-box;
+  }
+  

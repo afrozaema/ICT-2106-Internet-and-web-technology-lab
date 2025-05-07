@@ -1,0 +1,55 @@
+body{
+    
+    
+    background-color: #020101;
+    color: rgb(238, 242, 245);
+
+}
+
+/* Header Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #ddd;
+  }
+  .circle-dot {
+    width: 15px;
+    height: 15px;
+    background-color: #f3f5f5;
+    border-radius: 50%;
+  }
+  
+  .nav-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #020101;
+  }
+  
+  
+  .nav-left small {
+    color: #020101;
+  }
+  
+  .nav-right a {
+    text-decoration: none;
+    color: #0e0808;
+    margin: 0 8px;
+    font-weight: 500;
+  }
+  
+  .nav-right span {
+    color: #100f0f;
+  }
+  .my-button {
+    background-color: #4CAF50;
+    position: sticky;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
